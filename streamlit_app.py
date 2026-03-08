@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # ─── CSV Tracking Setup ───────────────────────────────────────────────────────
-TRACK_DIR = Path("data/tracking")
+TRACK_DIR = Path(__file__).parent / "data" / "tracking"
 TRACK_DIR.mkdir(parents=True, exist_ok=True)
 
 ACTIVITY_CSV    = TRACK_DIR / "activity_log.csv"
@@ -149,20 +149,21 @@ def rec_card(title, desc, color="#818cf8"):
     </div>""", unsafe_allow_html=True)
 
 # ─── Data & Model ─────────────────────────────────────────────────────────────
+BASE_DIR = Path(__file__).parent
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/cleaned/jobs_cleaned.csv")
+    df = pd.read_csv(BASE_DIR / "data" / "cleaned" / "jobs_cleaned.csv")
     df["Job Is Remote"] = df["Job Is Remote"].astype(bool)
     return df
 
 @st.cache_resource
 def load_model():
     try:
-        return (pickle.load(open("models/salary_model.pkl","rb")),
-                pickle.load(open("models/encoders.pkl","rb")))
+        return (pickle.load(open(BASE_DIR / "models" / "salary_model.pkl","rb")),
+                pickle.load(open(BASE_DIR / "models" / "encoders.pkl","rb")))
     except:
         return None, None
-
 df = load_data()
 model, encoders = load_model()
 
