@@ -1,0 +1,43 @@
+timestamp,page,filter_type,value
+2026-03-08 16:30:59,Market Analysis,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:30:59,Market Analysis,work_type,All
+2026-03-08 16:31:23,Salary Predictor,role_selected,Data Analyst
+2026-03-08 16:31:23,Salary Predictor,city_selected,Agoura Hills
+2026-03-08 16:31:23,Salary Predictor,state_selected,Alabama
+2026-03-08 16:31:28,Salary Predictor,role_selected,Data Analyst
+2026-03-08 16:31:28,Salary Predictor,city_selected,Agoura Hills
+2026-03-08 16:31:28,Salary Predictor,state_selected,Alabama
+2026-03-08 16:31:39,Salary Predictor,role_selected,BI Analyst
+2026-03-08 16:31:39,Salary Predictor,city_selected,Andover
+2026-03-08 16:31:39,Salary Predictor,state_selected,Arizona
+2026-03-08 16:32:43,Raw Data,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:32:43,Raw Data,min_salary,0
+2026-03-08 16:32:46,Market Analysis,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:32:46,Market Analysis,work_type,All
+2026-03-08 16:32:56,NLP,role_selected,All Roles
+2026-03-08 16:33:02,Market Analysis,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:33:02,Market Analysis,work_type,All
+2026-03-08 16:33:09,Market Analysis,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:33:09,Market Analysis,states_selected,['Arizona']
+2026-03-08 16:33:09,Market Analysis,work_type,All
+2026-03-08 16:33:10,Market Analysis,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'BI Analyst']"
+2026-03-08 16:33:10,Market Analysis,states_selected,['Arizona']
+2026-03-08 16:33:10,Market Analysis,work_type,All
+2026-03-08 16:33:11,Market Analysis,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'BI Analyst']"
+2026-03-08 16:33:11,Market Analysis,states_selected,['Arizona']
+2026-03-08 16:33:11,Market Analysis,work_type,All
+2026-03-08 16:33:13,Market Analysis,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'BI Analyst']"
+2026-03-08 16:33:13,Market Analysis,states_selected,['Arizona']
+2026-03-08 16:33:13,Market Analysis,work_type,All
+2026-03-08 16:33:17,NLP,role_selected,All Roles
+2026-03-08 16:33:33,NLP,role_selected,Business Analyst
+2026-03-08 16:34:30,Raw Data,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:34:30,Raw Data,min_salary,0
+2026-03-08 16:34:41,Raw Data,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:34:41,Raw Data,min_salary,0
+2026-03-08 16:34:44,Raw Data,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:34:44,Raw Data,min_salary,90000
+2026-03-08 16:34:46,Raw Data,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:34:47,Raw Data,min_salary,35000
+2026-03-08 16:34:55,Raw Data,roles_selected,"['Data Analyst', 'Data Scientist', 'Business Analyst', 'Data Engineer', 'Machine Learning Engineer', 'BI Analyst']"
+2026-03-08 16:34:55,Raw Data,min_salary,35000

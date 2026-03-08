@@ -1,0 +1,4 @@
+timestamp,role,city,state,employment_type,is_remote,predicted_salary,market_avg,diff_pct
+2026-03-08 16:31:23,Data Analyst,Agoura Hills,Alabama,Contractor,False,0,87273.0,-100.0
+2026-03-08 16:31:28,Data Analyst,Agoura Hills,Alabama,Contractor,True,0,87273.0,-100.0
+2026-03-08 16:31:39,BI Analyst,Andover,Arizona,Full-Time,True,102607.0,93233.0,10.1
