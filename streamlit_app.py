@@ -153,7 +153,8 @@ BASE_DIR = Path(__file__).parent
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(BASE_DIR / "data" / "cleaned" / "jobs_cleaned.csv")
+    data_path = Path("data/jobs_cleaned.csv")
+    df = pd.read_csv(data_path)
     df["Job Is Remote"] = df["Job Is Remote"].astype(bool)
     return df
 
